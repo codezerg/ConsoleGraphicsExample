@@ -142,10 +142,10 @@ AnsiCanvas is designed for high-performance console applications:
 Each cell is stored as 23 pre-formatted characters:
 ```
 \x1b[48;5;###m\x1b[38;5;###m#
-│           │           │
-│           │           └─ Character (1 char)
-│           └─ Foreground color (12 chars)
-└─ Background color (12 chars)
+          │             │   │
+          │             │   └─ Character (1 char)
+          │             └─ Foreground color (12 chars)
+          └─ Background color (12 chars)
 ```
 
 ## Architecture
